@@ -90,7 +90,9 @@ outputs/iris_model.pkl
 
 The training script was submitted to Azure ML as a Job and executed on an Azure ML Compute Cluster.
 
-![Training Job](screenshots/training-job.png)
+<p align="center">
+  <img src="screenshots/training-job.png" width="1000">
+</p>
 
 ## 3. Job Artifact
 
@@ -102,7 +104,9 @@ outputs/iris_model.pkl
 
 The Job logs also show the model's accuracy.
 
-![Job Outputs and Logs](screenshots/job-outputs.png)
+<p align="center">
+  <img src="screenshots/job-outputs.png" width="1000">
+</p>
 
 ## 4. Model Registry
 
@@ -113,7 +117,9 @@ iris-classifier
 Version 1
 ```
 
-![Model Registry](screenshots/model-registry.png)
+<p align="center">
+  <img src="screenshots/model-registry.png" width="1000">
+</p>
 
 ## 5. Prediction
 
@@ -137,11 +143,15 @@ Class `0` corresponds to **Iris Setosa**.
 
 The training code was packaged as an Azure ML Component and executed as part of an Azure ML Pipeline.
 
-![Pipeline Graph](screenshots/pipeline-graph.png)
+<p align="center">
+  <img src="screenshots/pipeline-graph.png" width="1000">
+</p>
 
 The model output from the training component was exposed as a pipeline output.
 
-![Pipeline Output](screenshots/pipeline-output.png)
+<p align="center">
+  <img src="screenshots/pipeline-output.png" width="1000">
+</p>
 
 ## Key Azure ML Concepts Learned
 
