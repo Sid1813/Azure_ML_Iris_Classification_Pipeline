@@ -166,3 +166,9 @@ The model output from the training component was exposed as a pipeline output.
 ## Purpose
 
 This project was created as a hands-on exercise to understand the basic Azure ML workflow before working on a more realistic machine learning project.
+
+---
+
+# 👨‍💻 Author
+
+## Siddharth Ranganatha
